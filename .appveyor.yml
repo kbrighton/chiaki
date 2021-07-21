@@ -12,9 +12,9 @@ configuration:
   - Release
 
 #for:
-matrix:
-  only:
-    - image: 'Visual Studio 2019'
+#matrix:
+#  only:
+#    - image: 'Visual Studio 2019'
 
 install:
   - git submodule update --init --recursive
